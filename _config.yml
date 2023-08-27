@@ -7,7 +7,7 @@ first_name: Dallas
 middle_name: 
 last_name: Hoffman
 email: cehoffm3@ncsu.edu
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description:  # the ">" symbol means to ignore newlines until "footer_text:"
   A professional portfolio and personal website.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
