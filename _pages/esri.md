@@ -7,4 +7,5 @@ description: My learning over the years!
 
 ---
 
-<iframe src="https://www.w3profile.com/TheMightyDusk" width="100%" height="2600px"></iframe>
+<iframe src="/assets/pdf/Hoffman_ESRI_Transcripts_doc..pdf" height="700" width="960" allowfullscreen="" frameborder="10">
+</iframe>
