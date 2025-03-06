@@ -92,7 +92,6 @@ jobs:
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build --trace
-          echo "Uglifier.new(harmony: true)" >> _config.yml
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
