@@ -8,6 +8,6 @@ children:
   - title: W3 School
     permalink: /w3school/
   - title: divider
-  - title: something
-    permalink: 
+  - title: ESRI Academy
+    permalink: /esri/
 ---
