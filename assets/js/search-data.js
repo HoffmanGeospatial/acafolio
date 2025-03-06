@@ -4,17 +4,24 @@ ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/acafolio/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+  },{id: "nav-certificates",
+          title: "Certificates",
+          description: "A few of the Certificates I have earned over the years.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/acafolio/projects/";
+            window.location.href = "/acafolio/certificates/";
+          },
+        },{id: "nav-faq",
+          title: "FAQ",
+          description: "Last Updated: 3/03/25",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/acafolio/faq/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -23,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/acafolio/repositories/";
           },
+        },{id: "nav-resumé-cv",
+          title: "Resumé/CV",
+          description: "As of February 2025.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/acafolio/cv/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
@@ -30,19 +44,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/acafolio/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
+        },{id: "dropdown-w3-school",
+              title: "W3 School",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/acafolio/books/";
+                window.location.href = "/acafolio/w3school/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-something",
+              title: "something",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/acafolio/blog/";
+                window.location.href = "";
               },
             },{id: "post-a-post-with-image-galleries",
       
