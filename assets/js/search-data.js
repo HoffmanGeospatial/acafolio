@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/acafolio/";
     },
-  },{id: "nav-certificates",
+  },{id: "nav-repositories",
+          title: "repositories",
+          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/acafolio/repositories/";
+          },
+        },{id: "nav-certificates",
           title: "Certificates",
           description: "A few of the Certificates I have earned over the years.",
           section: "Navigation",
@@ -22,13 +29,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/acafolio/faq/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/acafolio/repositories/";
           },
         },{id: "nav-resumé-cv",
           title: "Resumé/CV",
