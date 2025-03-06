@@ -2,7 +2,7 @@
 permalink: /assets/js/search-data.js
 ---
 // get the ninja-keys element
-const ninja = document.querySelector('ninja-keys');
+ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [
