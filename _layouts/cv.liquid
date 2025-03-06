@@ -77,6 +77,7 @@ layout: default
       {% endif %}
     </header>
 
+    <!-- This the one I'm using -->
     <article>
       <div class="cv">
         {% for data in site.data.resume %}
@@ -94,8 +95,8 @@ layout: default
                 {% when 'basics' %}
                   {% include resume/basics.liquid %}
                 {% when 'education' %}
-                  {% include resume/education.liquid %}
-                {% when 'work' %}
+                  {% include resume/education_tabs.liquid %}
+                {% when 'professional experience' %}
                   {% include resume/work.liquid %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
