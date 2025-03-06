@@ -162,10 +162,9 @@ collections:
 # ---------------
 # Dallas added per troubleshooting. (https://github.com/dart-lang/site-www/issues/502#issuecomment-365955221)
 
-assets:
-  external:
-    uglifier:
-      harmony: true
+
+uglifier:
+  harmony: true
 
 # Markdown and syntax highlight
 markdown: kramdown
