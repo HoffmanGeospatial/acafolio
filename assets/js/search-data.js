@@ -37,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/acafolio/cv/";
           },
-        },{id: "nav-resumé-cv",
-          title: "Resumé/CV",
-          description: "As of February 2025.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/acafolio/cv/";
-          },
         },{id: "dropdown-w3-school",
               title: "W3 School",
               description: "",
@@ -51,12 +44,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/acafolio/w3school/";
               },
-            },{id: "dropdown-something",
-              title: "something",
+            },{id: "dropdown-esri-academy",
+              title: "ESRI Academy",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "/acafolio/esri/";
               },
             },{id: "post-a-post-with-image-galleries",
       
