@@ -1,5 +1,5 @@
 let searchTheme = determineComputedTheme();
-const ninjaKeys = document.querySelector("ninja-keys");
+ninjaKeys = document.querySelector("ninja-keys");
 
 if (searchTheme === "dark") {
   ninjaKeys.classList.add("dark");
