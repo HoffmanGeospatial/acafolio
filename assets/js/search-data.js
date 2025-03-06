@@ -399,16 +399,64 @@ ninja.data = [{
           window.location.href = "/acafolio/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "certificates-arcgis-python-scripting",
+          title: 'ArcGIS Python Scripting',
+          description: "Issued by LinkedIn Learning Academy",
+          section: "Certificates",handler: () => {
+              window.location.href = "/acafolio/certificates/ArcGIS_Python/";
+            },},{id: "certificates-cisa-critical-infrastructure",
+          title: 'CISA Critical Infrastructure',
+          description: "Issued by the U.S. Department of Homeland Security - Cybersecurity and Infrastructure Security Agency (CISA)",
+          section: "Certificates",handler: () => {
+              window.location.href = "/acafolio/certificates/CISA_CIP/";
+            },},{id: "certificates-cisa-ransomware",
+          title: 'CISA Ransomware',
+          description: "Issued by the U.S. Department of Homeland Security - Cybersecurity and Infrastructure Security Agency (CISA)",
+          section: "Certificates",handler: () => {
+              window.location.href = "/acafolio/certificates/CISA_Ransomware/";
+            },},{id: "certificates-certified-peer-reviewer",
+          title: 'Certified Peer Reviewer',
+          description: "Issued by the Elsevier Researcher Academy",
+          section: "Certificates",handler: () => {
+              window.location.href = "/acafolio/certificates/Elsevier_PR/";
+            },},{id: "certificates-fema-apps",
+          title: 'FEMA Apps',
+          description: "Issued by the U.S. Department of Homeland Security - FEMA Emergency Management Institute",
+          section: "Certificates",handler: () => {
+              window.location.href = "/acafolio/certificates/FEMA_Apps/";
+            },},{id: "certificates-fema-gii",
+          title: 'FEMA GII',
+          description: "Issued by the U.S. Department of Homeland Security - FEMA Emergency Management Institute",
+          section: "Certificates",handler: () => {
+              window.location.href = "/acafolio/certificates/FEMA_GII/";
+            },},{id: "certificates-fema-gisp",
+          title: 'FEMA GISP',
+          description: "Issued by the U.S. Department of Homeland Security - FEMA Emergency Management Institute",
+          section: "Certificates",handler: () => {
+              window.location.href = "/acafolio/certificates/FEMA_GISP/";
+            },},{id: "certificates-graduate-certificate-in-gis",
+          title: 'Graduate Certificate in GIS',
+          description: "Issued by the Center for Geospatial Analytics at NC State University",
+          section: "Certificates",handler: () => {
+              window.location.href = "/acafolio/certificates/GC/";
+            },},{id: "certificates-nasa-tops-open-science",
+          title: 'NASA TOPS Open Science',
+          description: "Issued by NASA Transform to Open Science (TOPS) Program",
+          section: "Certificates",handler: () => {
+              window.location.href = "/acafolio/certificates/NASA_TOPS/";
+            },},{id: "certificates-geodesy-and-mapping",
+          title: 'Geodesy and Mapping',
+          description: "Issued by the University Corporation for Atmospheric Research (UCAR)",
+          section: "Certificates",handler: () => {
+              window.location.href = "/acafolio/certificates/NGA_Geodesy/";
+            },},{id: "news-i-was-invited-by-the-tops-team-at-nasa-to-join-their-newly-launched-open-science-101-program",
+          title: 'I was invited by the TOPS team at NASA to join their newly...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-sat-for-and-passed-the-gisci-gisp-technical-professional-certification-exam",
+          title: 'I sat for and passed the GISCI GISP Technical Professional Certification Exam.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/acafolio/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-completed-the-nasa-tops-open-science-program",
+          title: 'I completed the NASA TOPS Open Science program!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
