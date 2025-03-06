@@ -188,7 +188,7 @@ let setVegaLiteTheme = (theme) => {
 };
 
 let setSearchTheme = (theme) => {
-  const ninjaKeys = document.querySelector("ninja-keys");
+  ninjaKeys = document.querySelector("ninja-keys");
   if (!ninjaKeys) return;
 
   if (theme === "dark") {
